@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faApple, faAmazon, faTwitter, faMicrosoft, faDropbox, faPaypal,faCheckCircle } from '@fortawesome/free-brands-svg-icons';
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
+
+import { faApple, faAmazon, faTwitter, faMicrosoft, faDropbox, faPaypal} from '@fortawesome/free-brands-svg-icons';
 
 const transactions = [
   { name: "Apple", amount: "-999€", icon: faApple },
